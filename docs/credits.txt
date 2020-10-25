@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------------------------
+// Based on:
+// XOOPS Content Management System
+// http://xoops.codigolivre.org.br/
+// -----------------------------------------------------------------------------------------------
+// Module name: 	modules/dropdown/index.php
+// Author of module:	frankblack (frankblack@01019freenet.de)
+// Purpose of module: 	Display an individually configured dropdown menu
+// -----------------------------------------------------------------------------------------------
+// This module is based on the XOOPS module "mymenu"
+// Thanks to Marcel Widmer from http://www.coaching-forum.net
+// This module is originally based on the XOOPS module "Headlines"
+// Thanks to Francisco Burzi from http://phpnuke.org
+// -----------------------------------------------------------------------------------------------
+//
+// LICENSE
+//
+// This program is free software; you can redistribute it and/or
+// modify it under the terms of the GNU General Public License (GPL)
+// as published by the Free Software Foundation; either version 2
+// of the License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// To read the license please visit http://www.gnu.org/copyleft/gpl.html
+// -----------------------------------------------------------------------------------------------

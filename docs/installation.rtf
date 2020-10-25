@@ -1,0 +1,52 @@
+######################################################################################
+# DropDown 0.1 für XOOPS
+# ====================
+#
+# Copyright (c) 2004 frankblack (frankblack@01019freenet.de)
+# Based on: see credits
+######################################################################################
+Modulinstallation DropDown 0.1
+- Zip-Datei entpacken und den dropdown-Ordner in "modules"-Ordner verschieben/kopieren.
+- In die Xoops-Administration wechseln und wie folgt vorgehen:
+- Dropdown-Modul installieren
+- In die Block-Administration und dropdown sichtbar machen
+- Gruppenrechte für dropdown vergeben
+- Ins dropdown-Konfigurationsmenü gehen:
+a) Position des Links angeben an der der Eintrag im Dropdown erscheinen soll
+b) Den Namen des Eintrags eingeben
+c) URL eingeben Bsp.: http://www.deinedomain.com
+d) Auswählen ob DropDown nur für Mitglieder oder alle Benutzer sichtbar sein soll
+e) Auf "Hinzufügen" klicken
+f) Im untenstehenden Menü können die Dropdowneinträge geändert oder gelöscht werden
+Viel Vergnügen! Falls Fragen - dann fragen!
+Anmerkung: Die DropDown-Einträge können nur angesprungen werden, wenn Javascript
+aktiviert ist. Das Aussehen der DropDown-Liste kann über CSS gesteuert werden.
+Hier ein Vorschlag:
+.optionstyle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 95%; color:black;}
+.selectstyle {width: 95%;}
+Obenstehende CSS-Klassen kopieren und im Themenmanager in die CSS-Bereiche einfügen.
+Die Formatierung zwischen den Brackets kann nach Gusto verändert werden.
+Module Installation DropDown 0.1
+- Unzip the package in the "modules" folder.
+- Go to the XOOPS administration and do the following:
+- Install the Dropdown module
+- go to the block administration and make DropDown visible
+- modify your user groups to make DropDown available to ALL users
+- go to the DropDown configuration menu:
+a) Position of list item in the menu
+b) Name of the list item
+c) Type in the URL of the list item
+f) Choose if mymenu has to be visible for all users or registered users
+i) Click on "Add menu item"
+j) In the menu below all list items can be altered or deleted
+Have fun!
+Notice: Die DropDown entries can only be accessed when Javascript is activated.
+For english users ONE change has to be made. Open dropdownmenu.php in blocks.
+Look for "<option value='' class='optionstyle'>Auswahl</option>";" and change the word
+"Auswahl" into "Choice" or whatever.
+The appearance of the DropDown menu can be controlled via CSS.
+Here is a proposal:
+.optionstyle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 95%; color:black;}
+.selectstyle {width: 95%;}
+Above CSS-classes can be copied and pasted in the CSS-sections of the Thememanager.
+The appearance of the Dropdown menu between the brackets can be altered.
